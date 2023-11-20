@@ -36,7 +36,13 @@ header li{
     font-weight: 600;
 }
 
+header ul img{
+    height: 20px;
+    border-radius: 50% ;
+}
+
 header li a{
+    margin-left: 5px;
     text-decoration: none;
     color: black;
 }
