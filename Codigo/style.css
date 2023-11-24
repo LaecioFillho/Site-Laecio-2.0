@@ -29,9 +29,10 @@ h1{
 
 header li{
     font-family: 'Josefin Sans', sans-serif;
-    display: inline-block;
+    display: inline-flex;
+    justify-content: center;
     margin-right: 30px;
-    margin-left: 20px;
+    margin-left: 10px;
     font-size: 22px;
     font-weight: 600;
 }
@@ -84,7 +85,7 @@ a:hover{
 
 .imagem-fundo{
     height: 500px;
-    margin-left: 200px;
+    margin-left: 100px;
     margin-right: 50px;
 }
 
@@ -109,6 +110,9 @@ p{
 
 .SobreMim h2{
     color: white;
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 
