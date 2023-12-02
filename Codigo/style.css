@@ -108,12 +108,30 @@ p{
     justify-content: center;
 }
 
-.SobreMim h2{
+h2{
+    text-align: center;
     color: white;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     font-size: 35px;
     font-family: 'Josefin Sans', sans-serif;
 }
 
+/*Corpo parte 3*/
 
+.projects{
+    height: 500px;
+    background-color: white;
+}
 
+.cx-main-projetcs{
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cx-projects{
+    background-color: black;
+    width: 200px;
+    height: 300px;
+    border-radius: 30px 60px;
+}
