@@ -1,0 +1,41 @@
+@media screen and (max-width: 760px){
+
+
+    /*Cabecalho*/
+
+    header{
+        flex-direction: column;
+    }
+
+    header li{
+        margin: 5px;
+        font-size: 16px;
+        justify-content: center;
+    }
+
+    header ul img{
+        height: 16px;
+    }
+
+    /*Corpo parte 1*/
+
+    .apresentação{
+        flex-direction: column;
+        align-items: center;
+        height: 1000px;
+        padding: 0px;
+    }
+
+    /*Corpo parte 3*/
+
+    .cx-main-projetcs{
+        flex-direction: column;
+        align-items: center;
+        padding: 1%;
+    }
+
+    .cx-projects{
+        margin: 10px;
+    }
+
+}

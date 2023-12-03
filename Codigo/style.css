@@ -10,12 +10,9 @@
     padding: 0px;
 }
 
-header{
-    background-color: #fa7508b8;
-}
-
 /*Cabecalho*/
 header{
+    background-color: #fa7508b8;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -40,6 +37,14 @@ header li{
 header ul img{
     height: 20px;
     border-radius: 50% ;
+}
+
+.menu{
+    display: none;
+}
+
+.menu:hover{
+    display: flex;
 }
 
 header li a{
@@ -90,6 +95,7 @@ a:hover{
 }
 
 p{
+    
     font-family: 'Josefin Sans', sans-serif;
     margin-left: 30px;
     margin-bottom: 15px;
@@ -119,8 +125,20 @@ h2{
 /*Corpo parte 3*/
 
 .projects{
+    padding: 40px;
     height: 500px;
     background-color: white;
+}
+
+.projects h2{
+    color: black;
+    margin: 10px;
+    padding: 0px;
+    font-size: 40px;
+}
+
+.projects p{
+    margin: 10px;
 }
 
 .cx-main-projetcs{
@@ -131,7 +149,32 @@ h2{
 
 .cx-projects{
     background-color: black;
-    width: 200px;
-    height: 300px;
+    width: 250px;
+    height: 350px;
     border-radius: 30px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-projects{
+    width: 200px;
+    height: 150px;
+}
+
+.projects a{
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+.projects a:hover{
+    background-color: #FA7F08;
+    transition: 0.5s;
 }
