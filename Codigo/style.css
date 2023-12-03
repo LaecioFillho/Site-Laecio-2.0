@@ -37,6 +37,7 @@ header li{
 header ul img{
     height: 20px;
     border-radius: 50% ;
+    cursor: pointer;
 }
 
 .menu{
@@ -44,7 +45,7 @@ header ul img{
 }
 
 .menu:hover{
-    display: flex;
+    display: block;
 }
 
 header li a{
@@ -112,6 +113,11 @@ p{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+article{
+    width: 900px;
+    text-align: justify;
 }
 
 h2{
