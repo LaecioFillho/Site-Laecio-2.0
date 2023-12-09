@@ -1,5 +1,10 @@
 @media screen and (max-width: 820px){
 
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+
 
     /*Cabecalho*/
 
@@ -22,6 +27,12 @@
         height: 14px;
     }
 
+    .img-icone-menu{
+        height: 20px;
+    }
+
+    /*Corpo parte 1*/
+
     .apresentação h1{
         font-size: 70px;
     }
@@ -31,12 +42,11 @@
     }
 
     .imagem-fundo{
-        height: 500px;
+        height: 400px;
+        margin-top: 0px;
         margin-left: 50px;
         margin-right: 50px;
     }
-
-    /*Corpo parte 1*/
 
     .apresentação{
         flex-direction: column;
