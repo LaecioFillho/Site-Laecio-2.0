@@ -31,6 +31,12 @@
         height: 20px;
     }
 
+    .img-icone-menu:hover{
+        height: 23px;
+        transition: 0.5s;
+    }
+    
+
     /*Corpo parte 1*/
 
     .apresentação h1{
@@ -63,6 +69,10 @@
         height: 700px;
     }
 
+    h2{
+        margin-bottom: 15px;
+    }
+
     article{
         width: 350px;
         text-align: justify;
@@ -73,7 +83,7 @@
     .cx-main-projetcs{
         flex-direction: column;
         align-items: center;
-        padding: 1%;
+        padding: 10px;
     }
 
     .cx-projects{
