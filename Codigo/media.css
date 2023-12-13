@@ -17,13 +17,13 @@
         text-align: center;
     }
 
-    header li{
-        margin: 2px;
+    header a{
+        margin: 3px;
         font-size: 15px;
         justify-content: center;
     }
 
-    header ul img{
+    a img{
         height: 14px;
     }
 

@@ -23,50 +23,49 @@ h1{
     font-family: 'Dancing Script', cursive;
     font-size: 50px;
 }
-
-header li{
-    padding: 5px;
-    font-family: 'Josefin Sans', sans-serif;
-    display: inline-flex;
+header nav{
+    display: flex;
     justify-content: center;
-    margin-right: 20px;
-    margin-left: 0px;
-    font-size: 22px;
-    font-weight: 600;
+    align-items: center;
 }
 
-header ul img{
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+}
+
+a:hover{
+    color: white;
+    transition: 0.5s;
+}
+
+img{
+    margin: 0px 3px 3px;
     height: 20px;
     border-radius: 50% ;
     cursor: pointer;
 }
 
 .img-icone-menu{
+    display: flex;
     height: 25px;
     margin: 0px;
 }
 
-.img-icone-menu:hover{
-    height: 27px;
-    transition: 0.5s;
-}
-
-.menu{
+ul{
     display: none;
 }
 
-.menu:hover{
+.img-icone-menu:hover > ul{
     display: block;
-}
-
-header li a{
-    margin-left: 5px;
-    text-decoration: none;
-    color: black;
-}
-
-a:hover{
-    color: white;
+    height: 27px;
     transition: 0.5s;
 }
 
