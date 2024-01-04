@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*Fontes*/
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&display=swap');
 
 
@@ -39,12 +39,12 @@ nav a{
     justify-content: center;
     align-items: center;
     margin: 0px 10px;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 a:hover{
     color: white;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 nav a img{
@@ -58,16 +58,47 @@ nav a img{
     display: flex;
     height: 25px;
     margin: 0px;
+    transition: 0.3s;
 }
 
-nav ul{
-    display: none;
-}
-
-.img-icone-menu:hover > ul{
-    display: block;
+.img-icone-menu:hover{
+    background-color: #FA7F08;
     height: 27px;
+    transition: 0.3s;
+}
+
+.menu{
+    background-color: rgba(255, 255, 255, 0.432);
+    position: absolute;
+    left: 1200px;
+    top: 8%;
+    height: 130px;
+    width: 120px;
+    padding: 10px;
+    border-radius: 8px 20px;
+    display: none;
     transition: 0.5s;
+
+}
+
+.menu-org{
+    border: solid 1px;
+    border-radius: 5px 15px;
+    padding: 5px;
+    height: 110px;
+    width: 105px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+header div a{
+    color: black;
+    text-decoration: none;
+    font-size: 19px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
 }
 
 /*Corpo parte 1*/
@@ -107,7 +138,6 @@ nav ul{
 }
 
 p{
-    
     font-family: 'Josefin Sans', sans-serif;
     margin-left: 30px;
     margin-bottom: 15px;
