@@ -3,9 +3,9 @@ const menuG = document.querySelector('.menu')
 
 btnMenu.addEventListener('click', function(){
 
-    if (menuG.style.display === 'none') {
-        menuG.style.display = 'block'
+    if (menuG.style.top === '-23%') {
+        menuG.style.top = '12%'
     } else {
-        menuG.style.display = 'none'
+        menuG.style.top = '-23%'
     }
 })

@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+main{
+    background-image: url('Imagens/img-fundo/Laecio-Anime.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+main div{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.521);
+}
