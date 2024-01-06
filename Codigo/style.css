@@ -10,6 +10,27 @@
     padding: 0px;
 }
 
+.btn-topo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+.btn-topo img{
+    height: 20px;
+}
+
+.btn-topo a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
 /*Cabecalho*/
 header{
     background-color: #fa7508b8;
