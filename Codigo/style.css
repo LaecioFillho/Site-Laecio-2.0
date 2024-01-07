@@ -10,27 +10,6 @@
     padding: 0px;
 }
 
-.btn-topo{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    border: none;
-    border-radius: 10px;
-    padding: 5px;
-    text-align: center;
-}
-
-.btn-topo img{
-    height: 20px;
-}
-
-.btn-topo a{
-    text-decoration: none;
-    color: black;
-    font-size: 15px;
-}
-
 /*Cabecalho*/
 header{
     background-color: #fa7508b8;
@@ -92,7 +71,7 @@ nav a img{
     background-color: rgba(255, 255, 255, 0.432);
     position: absolute;
     left: 90%;
-    top: -23%;
+    top: -40%;
     height: 130px;
     width: 120px;
     padding: 10px;
@@ -111,6 +90,12 @@ nav a img{
     flex-direction: column;
     justify-content: space-around;
 
+}
+
+.org:hover{
+    background-color: #FA7F08;
+    border-radius: 3px 5px;
+    padding: 2px;
 }
 
 header div a{
@@ -167,8 +152,8 @@ p{
 }
 
 /*Corpo parte 2*/
-.SobreMim{
-    height: 600px;
+.SobreMim{ 
+    padding: 80px 0px;
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -187,6 +172,28 @@ h2{
     margin-bottom: 40px;
     font-size: 35px;
     font-family: 'Josefin Sans', sans-serif;
+}
+
+/*Botão voltar para o inicio*/
+
+.btn-topo{
+    display: flex;
+    background-color: white;
+    box-shadow: 0px 0px 3px white;
+    border: none;
+    border-radius: 50%;
+    padding: 3px;
+    margin-top: 8%;
+}
+
+.btn-topo img{
+    height: 20px;
+    align-self: center;
+}
+
+.btn-topo:hover{
+    background-color: #FA7F08;
+    transition: 0.3s;
 }
 
 /*Corpo parte 3*/
@@ -244,4 +251,18 @@ h2{
 .projects a:hover{
     background-color: #FA7F08;
     transition: 0.5s;
+}
+
+/*Roddapé*/
+
+footer{
+    height: 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.um{
+    margin-top: 0px;
 }

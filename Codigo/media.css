@@ -38,7 +38,7 @@
     .menu{
         background-color: rgba(255, 255, 255, 0.74);
         left: 60%;
-        top: -23%;
+        top: -40%;
     }
 
     .menu a{
@@ -72,10 +72,6 @@
 
     /*Corpo parte 2*/
 
-    .sobreMim{
-        margin: 5px;
-    }
-
     h2{
         margin-bottom: 15px;
     }
@@ -95,6 +91,11 @@
 
     .cx-projects{
         margin: 10px;
+    }
+
+    footer{
+        height: 50px;
+        background-color: black;
     }
 
 }
