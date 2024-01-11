@@ -42,8 +42,12 @@ nav a{
     transition: 0.3s;
 }
 
-a:hover{
+nav a:hover{
     color: white;
+    background-color: rgba(0, 0, 0, 0.281);
+    border-bottom: 3px solid rgba(0, 0, 0, 0.664);
+    border-radius: 5px 9px;
+    padding: 3px;
     transition: 0.3s;
 }
 
@@ -62,7 +66,7 @@ nav a img{
 }
 
 .img-icone-menu:hover{
-    background-color: #FA7F08;
+    background-color: white;
     height: 27px;
     transition: 0.3s;
 }
@@ -92,8 +96,14 @@ nav a img{
 
 }
 
+.org{
+    transition: 0.2s;
+}
+
 .org:hover{
-    background-color: #FA7F08;
+    background-color: #fa810886;
+    border-bottom: 3px solid #FA7F08;
+    border-left: 2px solid #FA7F08;
     border-radius: 3px 5px;
     padding: 2px;
 }
@@ -101,7 +111,7 @@ nav a img{
 header div a{
     color: black;
     text-decoration: none;
-    font-size: 19px;
+    font-size: 17px;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 500;
 }
@@ -200,7 +210,6 @@ h2{
 
 .projects{
     padding: 40px;
-    height: 500px;
     background-color: white;
 }
 

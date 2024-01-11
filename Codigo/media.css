@@ -26,6 +26,13 @@
         height: 14px;
     }
 
+    nav a:hover{
+        background-color: rgba(0, 0, 0, 0.281);
+        border-bottom: 2px solid rgba(0, 0, 0, 0.664);
+        border-radius: 3px 6px;
+        padding: 2px;
+    }
+
     .img-icone-menu{
         height: 20px;
     }
@@ -92,6 +99,8 @@
     .cx-projects{
         margin: 10px;
     }
+
+    /*Rodapé*/
 
     footer{
         height: 50px;
