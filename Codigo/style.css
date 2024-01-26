@@ -254,12 +254,13 @@ h2{
     background-color: white;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 700;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .projects a:hover{
     background-color: #FA7F08;
-    transition: 0.5s;
+    transition: 0.3s;
+    padding: 12px;
 }
 
 /*Roddapé*/
