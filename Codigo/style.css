@@ -47,7 +47,7 @@ nav a:hover{
     background-color: rgba(0, 0, 0, 0.281);
     border-bottom: 3px solid rgba(0, 0, 0, 0.664);
     border-radius: 5px 9px;
-    padding: 3px;
+    padding: 15px 3px;
     transition: 0.3s;
 }
 
@@ -74,7 +74,7 @@ nav a img{
 .menu{
     background-color: rgba(255, 255, 255, 0.432);
     position: absolute;
-    left: 90%;
+    left: 89%;
     top: -40%;
     height: 130px;
     width: 120px;
@@ -203,6 +203,7 @@ h2{
 
 .btn-topo:hover{
     background-color: #FA7F08;
+    padding: 4px;
     transition: 0.3s;
 }
 
